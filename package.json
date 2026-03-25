@@ -1,0 +1,11 @@
+{
+  "name": "task-collab-platform",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npm test --prefix backend && npm test --prefix frontend",
+    "test:backend": "npm test --prefix backend",
+    "test:frontend": "npm test --prefix frontend",
+    "test:security": "npm run test:security --prefix backend"
+  }
+}
